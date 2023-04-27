@@ -24,7 +24,7 @@ List<Student> students = [
     Student("Berkay", "Bilgin", 45),
     Student("Tuğçe", "Kepen", 100)];
 ```
-```flutter
+```dart
 Widget buildBody(BuildContext context) {
     return Column(
       children: [
