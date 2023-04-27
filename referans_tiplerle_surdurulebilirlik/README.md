@@ -1,10 +1,6 @@
 # referans_tiplerle_surdurulebilirlik
-
-A new Flutter project.
-
-## Getting Started
-
-```
+---
+```dart
 class MyApp extends StatelessWidget {
 
   String mesaj = "Merhaba ilk uygulamam!";
