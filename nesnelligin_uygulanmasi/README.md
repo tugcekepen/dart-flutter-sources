@@ -51,3 +51,18 @@ Widget buildBody(BuildContext context) {
     .
 }
 ```
+```dart
+class MyApp extends StatelessWidget {
+    .
+    .
+    .
+    Widget buildStatusIcon(int grade) {
+        if (grade >= 50) {
+          return Icon(Icons.done_outline_rounded);
+        } else if (grade >= 40) {
+          return Icon(Icons.cached_rounded);
+        } else {
+          return Icon(Icons.clear_rounded);
+        }
+    }
+```
