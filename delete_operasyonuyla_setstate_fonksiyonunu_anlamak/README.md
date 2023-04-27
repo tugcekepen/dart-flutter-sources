@@ -4,6 +4,9 @@
  + late int id;
  + Student.withId(int id, String firstName, String lastName, int grade) { ... } //ctor
  + Student //ctor düzenlendi
+
+
+> main.dart
 ```
 Flexible(
     fit: FlexFit.tight,
