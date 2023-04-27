@@ -7,7 +7,7 @@
 
 
 > main.dart
-```
+```dart
 Flexible(
     fit: FlexFit.tight,
     flex: 1,
